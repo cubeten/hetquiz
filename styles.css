@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container Styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Input Group Styles */
+.input-group, .add-question-form {
+    margin-bottom: 15px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input and Textarea Styles */
+input[type="number"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus, textarea:focus {
+    border-color: #3498db;
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* Flexbox for Managing Questions */
+.manage-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-question-form {
+    width: 40%;
+}
+
+.questions-list {
+    width: 55%;
+    margin-left: 20px;
+}
+
+.questions-list h2 {
+    text-align: center;
+}
+
+/* Question Container Styles */
+.question-container {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .manage-container {
+        flex-direction: column;
+    }
+
+    .add-question-form, .questions-list {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+.question-result {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.question-result p {
+    margin: 5px 0;
+}
+
+.result-question {
+    margin-bottom: 20px;
+}
+
+.result-question h3 {
+    font-size: 18px;
+}
+
+.result-question p {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+body {
+    background-image: url('images/gettyimages-477435154-1024x1024.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Make the background image fixed */
+    height: 100vh; /* Ensure the body covers the full viewport height */
+    margin: 0; /* Remove default body margin */
+}

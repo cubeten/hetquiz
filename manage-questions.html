@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Questions</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .question-item {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 15px;
+            background-color: #f9f9f9; /* Light gray background for the question item */
+        }
+
+        .options-container {
+            margin: 10px 0;
+        }
+
+        .options-container textarea {
+            margin-right: 5px;
+            background-color: #e9e9e9; /* Darker background for options */
+            resize: none; /* Disable manual resizing */
+            overflow: hidden; /* Hide overflow to prevent scrollbars */
+            min-height: 30px; /* Minimum height for options */
+            color: #404040; /* Set text color to #404040 */
+        }
+
+        .edit-buttons {
+            margin-top: 10px;
+        }
+
+        .edit-buttons button {
+            margin-right: 5px;
+        }
+
+        /* New styles for the question text */
+        .question-text {
+            font-weight: bold; /* Make text bold */
+            font-size: 18px; /* Increase font size to 18px (16px + 2px) */
+            background-color: #e0e0e0; /* Darker background for question text */
+            color: #404040; /* Set text color to #404040 */
+            border: none; /* Remove default border */
+            padding: 5px; /* Add padding for better appearance */
+            width: 100%; /* Full width for text area */
+            box-sizing: border-box; /* Include padding and border in the element's total width and height */
+            min-height: 50px; /* Minimum height to include an extra line of buffer */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Manage Questions</h1>
+        <button class="button" onclick="window.location.href='index.html'">Back to Quiz</button>
+
+        <div class="manage-container">
+            <div class="add-question-form">
+                <h2>Add a New Question</h2>
+                <label for="new-question">Question:</label>
+                <textarea id="new-question" rows="4" class="question-text" oninput="autoResize(this)"></textarea>
+
+                <label for="num-options">Number of Possible Answers:</label>
+                <input type="number" id="num-options" min="2" value="4" onchange="updateOptionFields()">
+
+                <div id="options-container">
+                    <label for="option1">Option 1:</label>
+                    <textarea id="option1" rows="1" oninput="autoResize(this)"></textarea>
+                    <label for="option2">Option 2:</label>
+                    <textarea id="option2" rows="1" oninput="autoResize(this)"></textarea>
+                    <label for="option3">Option 3:</label>
+                    <textarea id="option3" rows="1" oninput="autoResize(this)"></textarea>
+                    <label for="option4">Option 4:</label>
+                    <textarea id="option4" rows="1" oninput="autoResize(this)"></textarea>
+                </div>
+
+                <label for="correct-answer">Correct Answer (choose 1-4):</label>
+                <input type="number" id="correct-answer" min="1" max="4">
+
+                <button class="button" onclick="addNewQuestion()">Add Question</button>
+                <p id="question-added-msg" style="color:green; display:none;">Question added successfully!</p>
+            </div>
+
+            <div class="questions-list">
+                <h2>All Questions</h2>
+                <div id="questions-container"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="question-management.js"></script>
+</body>
+</html>

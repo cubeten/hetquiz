@@ -1,0 +1,495 @@
+[
+    {
+        "question": "What is the primary function of air brakes in heavy equipment?",
+        "options": [
+            "To provide hydraulic assistance",
+            "To stop the vehicle using compressed air",
+            "To cool the engine",
+            "To lubricate the engine"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which component stores compressed air in an air brake system?",
+        "options": [
+            "Air compressor",
+            "Air tank",
+            "Brake chamber",
+            "Relay valve"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the purpose of the air compressor in an air brake system?",
+        "options": [
+            "To increase the vehicle's speed",
+            "To store air",
+            "To generate compressed air for braking",
+            "To cool the braking system"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What happens to the air pressure in the brake system when the brakes are applied?",
+        "options": [
+            "It increases",
+            "It decreases",
+            "It remains constant",
+            "It fluctuates"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the function of the brake chamber in an air brake system?",
+        "options": [
+            "To convert air pressure into mechanical force",
+            "To store air",
+            "To cool the air",
+            "To monitor air pressure"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which component of the air brake system is responsible for modulating brake pressure?",
+        "options": [
+            "Relay valve",
+            "Foot valve",
+            "Compressor governor",
+            "Quick release valve"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What does the term 'service brake' refer to?",
+        "options": [
+            "Brakes used for stopping the vehicle during normal operation",
+            "Brakes used for parking the vehicle",
+            "Brakes that engage automatically",
+            "Brakes used for emergency situations"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "How is air pressure typically indicated in an air brake system?",
+        "options": [
+            "Pressure gauge",
+            "Speedometer",
+            "Tachometer",
+            "Odometer"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is a major cause of air brake system failure?",
+        "options": [
+            "Overheating",
+            "Water contamination",
+            "Low tire pressure",
+            "Worn brake pads"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What safety feature prevents overcharging the air system?",
+        "options": [
+            "Pressure relief valve",
+            "Compressor governor",
+            "Foot valve",
+            "Air dryer"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the role of the foot valve in an air brake system?",
+        "options": [
+            "To control air pressure to the brake chambers",
+            "To store air",
+            "To regulate the air compressor",
+            "To prevent moisture buildup"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which component releases air pressure from the brake chambers?",
+        "options": [
+            "Brake pedal",
+            "Quick release valve",
+            "Relay valve",
+            "Air dryer"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What type of air brake system is commonly used in heavy trucks?",
+        "options": [
+            "Single circuit",
+            "Dual circuit",
+            "Hydraulic",
+            "Vacuum"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which type of brake is applied when the parking brake is engaged?",
+        "options": [
+            "Service brake",
+            "Emergency brake",
+            "Parking brake",
+            "Anti-lock brake"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What component is used to reduce moisture in the air brake system?",
+        "options": [
+            "Air dryer",
+            "Compressor",
+            "Filter",
+            "Regulator"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the main disadvantage of air brakes compared to hydraulic brakes?",
+        "options": [
+            "Less effective stopping power",
+            "Increased weight",
+            "Slower response time",
+            "Higher maintenance cost"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "What is the purpose of a relay valve?",
+        "options": [
+            "To reduce pressure to the brakes",
+            "To regulate airflow to the brake chambers",
+            "To store air",
+            "To control the air compressor"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the typical operating pressure for an air brake system?",
+        "options": [
+            "20-30 psi",
+            "60-80 psi",
+            "90-120 psi",
+            "130-150 psi"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What does the term 'brake fade' refer to?",
+        "options": [
+            "Loss of braking power due to overheating",
+            "Improved braking efficiency over time",
+            "Enhanced stopping power during wet conditions",
+            "Increased braking response with pressure"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which component is responsible for converting air pressure into mechanical movement?",
+        "options": [
+            "Brake chamber",
+            "Air tank",
+            "Compressor",
+            "Relay valve"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the main function of an air governor?",
+        "options": [
+            "To control the speed of the vehicle",
+            "To regulate air pressure in the system",
+            "To monitor brake fluid levels",
+            "To activate the air dryer"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What type of valve is used to engage the parking brake?",
+        "options": [
+            "Quick release valve",
+            "Foot valve",
+            "Hand valve",
+            "Relay valve"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which of the following is a sign of air leak in an air brake system?",
+        "options": [
+            "Increased braking distance",
+            "Air pressure gauge fluctuation",
+            "Loss of power steering",
+            "Inconsistent engine temperature"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What should be done if the air pressure drops below the recommended level?",
+        "options": [
+            "Continue driving until you reach a service center",
+            "Pull over and inspect the air brake system",
+            "Engage the emergency brake",
+            "Increase engine RPM"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which component is used to balance air pressure across the brake system?",
+        "options": [
+            "Load sensing valve",
+            "Pressure relief valve",
+            "Relay valve",
+            "Foot valve"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the purpose of an air brake system's accumulator?",
+        "options": [
+            "To store excess air pressure",
+            "To reduce moisture in the system",
+            "To monitor brake temperature",
+            "To control brake engagement"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What should be checked during a pre-trip inspection for air brakes?",
+        "options": [
+            "Tire pressure",
+            "Brake fluid level",
+            "Air pressure gauge function",
+            "Engine oil level"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the typical maintenance interval for inspecting air brake systems?",
+        "options": [
+            "Every 3,000 miles",
+            "Every 6 months",
+            "Every 12 months",
+            "Every 2 years"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which condition can lead to air compressor failure?",
+        "options": [
+            "Excessive load",
+            "Regular oil changes",
+            "Proper air filtration",
+            "Routine inspections"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What does the term 'drain valve' refer to in an air brake system?",
+        "options": [
+            "A valve for releasing compressed air",
+            "A valve for draining moisture from the air tank",
+            "A valve for adjusting brake pressure",
+            "A valve for controlling the air compressor"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the main purpose of the anti-lock braking system (ABS) in air brakes?",
+        "options": [
+            "To prevent wheel lockup during braking",
+            "To reduce brake wear",
+            "To enhance fuel efficiency",
+            "To increase stopping distance"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What type of material is commonly used for air brake hoses?",
+        "options": [
+            "Rubber",
+            "PVC",
+            "Silicone",
+            "Metal"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which is a critical factor in the air brake system's effectiveness?",
+        "options": [
+            "Air temperature",
+            "Air quality",
+            "Tire pressure",
+            "Fuel type"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the main advantage of air brakes over hydraulic brakes?",
+        "options": [
+            "Lower maintenance costs",
+            "Higher efficiency",
+            "Greater stopping power",
+            "Faster response time"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What does a flashing air pressure warning light indicate?",
+        "options": [
+            "Normal operation",
+            "Excessive air pressure",
+            "Low air pressure",
+            "Brake system failure"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is a typical cause of air brake system leaks?",
+        "options": [
+            "Worn brake pads",
+            "Damaged hoses",
+            "Low fluid levels",
+            "Overheating"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What should be done if the air brake system is frozen?",
+        "options": [
+            "Apply heat to the compressor",
+            "Use antifreeze in the system",
+            "Wait for temperatures to rise",
+            "Check for leaks"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What component helps to maintain consistent air pressure in the system?",
+        "options": [
+            "Air dryer",
+            "Compressor governor",
+            "Foot valve",
+            "Quick release valve"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which type of brake is considered the primary braking method in an air brake system?",
+        "options": [
+            "Service brake",
+            "Emergency brake",
+            "Parking brake",
+            "Auxiliary brake"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the purpose of the air dryer in an air brake system?",
+        "options": [
+            "To filter air",
+            "To cool the air",
+            "To remove moisture",
+            "To regulate pressure"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What action should be taken if you hear a hissing sound from the air brake system?",
+        "options": [
+            "Continue driving",
+            "Inspect for air leaks",
+            "Check the brake fluid level",
+            "Adjust the brake pressure"
+        ],
+        "correctAnswer": 1
+    },
+    {
+        "question": "What type of air brake is used for emergency situations?",
+        "options": [
+            "Service brake",
+            "Auxiliary brake",
+            "Parking brake",
+            "Emergency brake"
+        ],
+        "correctAnswer": 3
+    },
+    {
+        "question": "Which factor can affect the performance of air brakes in cold weather?",
+        "options": [
+            "Tire pressure",
+            "Air quality",
+            "Moisture buildup",
+            "Brake pad thickness"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the function of the air governor in an air brake system?",
+        "options": [
+            "To regulate air pressure",
+            "To monitor brake fluid levels",
+            "To engage the parking brake",
+            "To cool the air compressor"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What should be checked during a brake system inspection?",
+        "options": [
+            "Air pressure levels",
+            "Tire tread depth",
+            "Fluid levels",
+            "Engine oil quality"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "Which system component is responsible for applying the brakes?",
+        "options": [
+            "Brake pedal",
+            "Compressor",
+            "Air tank",
+            "Brake pads"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What should be done to prepare the air brake system for winter?",
+        "options": [
+            "Add moisture absorbent",
+            "Reduce tire pressure",
+            "Increase brake fluid",
+            "Change brake pads"
+        ],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What happens if the air pressure drops below 60 psi?",
+        "options": [
+            "Brakes will not engage",
+            "Brakes will lock up",
+            "Warning light activates",
+            "Air compressor stops working"
+        ],
+        "correctAnswer": 2
+    },
+    {
+        "question": "What type of valve is used to release air from the system when the brakes are disengaged?",
+        "options": [
+            "Quick release valve",
+            "Relay valve",
+            "Foot valve",
+            "Pressure relief valve"
+        ],
+        "correctAnswer": 0
+    }
+    
+    
+    
+]
