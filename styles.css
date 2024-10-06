@@ -131,7 +131,7 @@ input[type="number"]:focus, textarea:focus {
 }
 
 body {
-    background-image: url('images/gettyimages-477435154-1024x1024.jpg'); /* Replace with your image path */
+    background-image: url('gettyimages-477435154-1024x1024.jpg'); /* Replace with your image path */
     background-size: cover; /* Cover the entire viewport */
     background-repeat: no-repeat; /* Prevent the image from repeating */
     background-position: center; /* Center the image */
